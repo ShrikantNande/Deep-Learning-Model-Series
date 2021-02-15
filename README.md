@@ -29,3 +29,18 @@ Model Additional Features :
 * Validation Loss : 2.0386
 * Predictions : Not as we expected as we might need more amount of data or more layer training.
 * Work's good for memorization but not as good as generalization
+
+
+## Visual Geometry Group(VGG): 2015 Dec.
+
+*   VGG16 is a convolution neural net (CNN ) architecture which was used to win ILSVR(Imagenet) competition in 2014.
+*  Most unique thing about VGG16 is that instead of having a large number of hyper-parameter they focused on having convolution layers of 3x3 filter with a stride 1 and always used same padding and maxpool layer of 2x2 filter of stride 2.
+![India](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png "VGG")
+*   VGG was discurved for reature learning and mostly used techique as of today.
+Model Additional Features :
+   1. Simple and same kernals
+   2. Parameters are fix such as stride = 1, padding = 'same' for all convolution layers. 
+   3. Max pooling, conv layers and dense layers are used in entire network
+   4. For feature leraning mostly vgg network is used.
+- Vgg 16 : 16 layers [13 conv ; 5 MaxPool : 3 Dense : 1 Softmax]
+
