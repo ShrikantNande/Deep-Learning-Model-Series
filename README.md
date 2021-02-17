@@ -44,3 +44,10 @@ Model Additional Features :
    4. For feature leraning mostly vgg network is used.
 - Vgg 16 : 16 layers [13 conv ; 5 MaxPool : 3 Dense : 1 Softmax]
 
+#### Observation
+* Accuraracy is 0.8868. #Only  Epoches
+* Loss is 0.2587.
+* Prediction correct.
+* Works well for Cat-Dog Dataset.
+* Simple and less complex structured conv layer model.
+* Transfer Learning.
